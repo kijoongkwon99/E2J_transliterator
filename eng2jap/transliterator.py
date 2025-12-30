@@ -25,18 +25,18 @@ class EngToJap:
     def ipa_word_to_kana(self, word: str, ipa: str) -> str:
         ipa = ipa.replace('.', '').replace(',','')
 
-        print(f"word            :{word}")
-        print(f"ipa             :{ipa}")
+        # print(f"word            :{word}")
+        # print(f"ipa             :{ipa}")
         ph1 = self.vowel_fn(word, ipa)
-        print(f"vowel_fn        : {ph1}")
+        # print(f"vowel_fn        : {ph1}")
         ph2 = self.consonant_fn(word, ph1)
-        print(f"consonant_fn    : {ph2}")
+        # print(f"consonant_fn    : {ph2}")
         ph3 = self.epenthetic_fn(ph2)
-        print(f"epenthetic_fn   : {ph3}")
+        # print(f"epenthetic_fn   : {ph3}")
         mora = self.morae_fn(ph3)
-        print(f"mora_fn         : {mora}")
+        # print(f"mora_fn         : {mora}")
         kana = self.kana_fn(mora)
-        print(f"kana_fn         : {kana}\n")
+        # print(f"kana_fn         : {kana}\n")
         return kana
     
     def transliteration(self, text: str) -> str:
