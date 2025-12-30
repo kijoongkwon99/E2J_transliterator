@@ -65,7 +65,7 @@ from eng2jap import english_to_japanese
 print(english_to_japanese("Hello, world!"))
 ```
 
-Example output (approximate):
+Example output:
 
 ```text
 ハロー, ウォルド!
