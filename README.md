@@ -68,7 +68,7 @@ print(english_to_japanese("Hello, world!"))
 Example output (approximate):
 
 ```text
-ヘロ, ワールド!
+ハロー, ウォルド!
 ```
 
 ---
@@ -99,6 +99,8 @@ print(
 ```
 
 ### Output Example
+
+Example TTS outputs for the generated pronunciations are provided in the `example/` directory.
 
 ```text
 ジス モジュール ワズ ディザインド ツー ハンダル プレイス ネインズ, ペサナル ネインズ, アンド ローンウォッズ イン ティーティーエス シスタンズ, サッチ アズ ギャングナム, ナールートー, アンド パイトーチ, ワイル プリゼビング パンクチューエイシャン.
